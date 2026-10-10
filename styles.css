@@ -6,11 +6,13 @@ off white: #F8FAFC
 black: #000000
 gray: #6B7280
 */
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: 'Inter', sans-serif;
   background-color: #F8FAFC;
@@ -113,6 +115,14 @@ main a:hover {
     display: block;
 }
 .image img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid #1E3A8A;
+}
+video {
     width: 100%;
     max-width: 100%;
     height: auto;
